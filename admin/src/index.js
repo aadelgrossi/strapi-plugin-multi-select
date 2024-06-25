@@ -79,6 +79,18 @@ export default {
                     'This field will not show up in the API response',
                 },
               },
+              {
+                name: 'default',
+                type: 'textarea-enum',
+                intlLabel: {
+                  id: getTrad('form.attribute.settings.default'),
+                  defaultMessage: 'Default value',
+                },
+                placeholder: {
+                  id: getTrad('multi-select.enum.placeholder'),
+                  defaultMessage: 'Ex:\nOption 1\nOption 2\nOption 3:option-3',
+                },
+              },
             ],
           },
         ],
